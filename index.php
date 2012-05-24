@@ -248,6 +248,7 @@ function author($id) {
 		$book = R::findOne('books', ' id=?', array($bid->book));
 		array_push($books, $book);
 	}
+	asort($books);
 	$app->render('author_detail.html',array('page' => mkPage($globalSettings['langa']['author_details']), 'author' => $author, 'books' => $books));
 	R::close();
 }
@@ -290,6 +291,7 @@ function tag($id) {
 		$book = R::findOne('books', ' id=?', array($bid->book));
 		array_push($books, $book);
 	}
+	asort($books);
 	$app->render('tag_detail.html',array('page' => mkPage($globalSettings['langa']['tag_details']), 'tag' => $tag, 'books' => $books));
 	R::close();
 }

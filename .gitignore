@@ -5,3 +5,6 @@ pkg
 metadata.db
 *.sublime-project
 *.sublime-workspace
+config.php
+logs/
+

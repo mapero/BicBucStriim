@@ -8,7 +8,7 @@
 # Root directory of the Calibre library. It should contain Calibres catalog file
 # "metadata.db".
 $calibre_dir = '/volume1/books';
-
+$appname = 'Calibre';
 # Global download protection toggle. Turn on (set to "true") to require a valid password before 
 # books can be downloaded. Initially off.
 $glob_dl_toggle = false;

@@ -15,8 +15,6 @@ TwigView::$twigExtensions = array(
 $allowedLangs = array('de','en');
 # Fallback language if the browser prefers other than the allowed languages
 $fallbackLang = 'en';
-# Application Name
-$appname = 'BicBucStriim';
 # App version
 $appversion = '0.7.0';
 # Cookie name for global download protection
